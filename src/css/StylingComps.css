@@ -1,0 +1,45 @@
+.textInput{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.input{
+    width: 80%;
+    border: transparent;
+    font-size: 20px;
+}
+.input:focus{
+    border: transparent;
+    outline: none;
+}
+
+.inputAux{
+    width: 10%;
+    display: flex;
+    flex-flow: column;
+    padding-right: 10px;
+    border-right: 1px solid #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.CustomButton{
+    background-color: #3482ad;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 30px;
+    border: transparent;
+    transition: all 100ms ease;
+}
+
+.CustomButton:active{
+    background-color: #265d7a;
+    transition: all 100ms ease;
+}
+
+.font1{
+    font-family: 'Lato', "sans-serif";
+    font-family: 'Smooch Sans', "sans-serif";
+}

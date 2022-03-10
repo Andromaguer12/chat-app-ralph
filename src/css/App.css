@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.LoginPage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #ceffff;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.loginBox{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e7e7e77a;
+    border-radius: 20px;
+    width: 20%;
+    position: relative;
+    height: 40vh;
+    padding: 40px;
+    backdrop-filter: blur(10px);
+}
+
+.loginForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.loginIcon{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -35px;
+    background: #fff;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    /* margin: 0 auto; */
+}
+
+.footer{
+    border-top: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22.5%;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .loginBox{
+        width: 70%;
+        height: 60%;
+        box-sizing: border-box;
+    }
+    .footer{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .loginBox{
+        width: 90%;
+        height: 70%;
+        box-sizing: border-box;
+    }
+    .footer{
+        width: 80%;
+    }
+}
